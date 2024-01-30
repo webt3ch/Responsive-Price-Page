@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.title {
+    margin: 25px;
+    text-shadow: 2px 2px 4px rgba(0, 33, 86, 0.5);
+}
+
+body {
+
+font-family: 'Outfit', sans-serif;
+width: 100%;
+height: auto;
+background-image: linear-gradient(45deg, #9a95e2 20%, #59e6f6 100%);
+}
+
+.our-plan {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    padding: 0.4rem;
+    margin-bottom: 1.5rem;
+    width: 100%;
+}
+
+.pricing {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 2rem;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    height: auto;
+    background-color: #f9f9f9;
+    border-radius: 20px;
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+    padding: 2rem;
+    margin: 1rem;
+    transition: all 0.2s ease-in;
+}
+
+.card-wrapper:hover {
+    transform: scale(1.1);
+}
+
+.card-header {
+    margin: 1rem;
+    text-align: center;
+}
+
+
+
+.card-wrapper:hover .card-header> h2 {
+    transform: scale(1.1);
+    color: #226ad0;
+    letter-spacing: 2;
+}
+
+.card-header >img {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.card-detail {
+    width: 100%;
+}
+
+.card-detail > p {
+    padding: 0.6rem 1.5rem;
+    font-size: 0.8rem;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.check {
+    color: #4dd022;
+}
+
+.nocheck {
+    color: #ec615b;
+}
+
+.card-detail > p:hover {
+    background-color: #d5d5d5;
+}
+
+.card-price {
+    display: flex;
+    align-items: flex-start;
+    margin: 1rem;
+}
+
+.card-price > p {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.card-price > p > sup,
+.card-price > p > sub {
+    font-size: 1rem;
+}
+
+.card-button {
+    width: 150px;
+    height: 60px;
+    border: 3px solid #315cfd;
+    border-radius: 45px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: white;
+    font-size: 1.2em;
+    font-weight: 550;
+}
+
+.card-button:hover {
+    background: #315cfd;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.btn {
+    display: grid;
+    place-items: center;
+    background: #e3edf7;
+    padding: 1.4em;
+    border-radius: 10px;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+            -6px -6px 10px -1px rgba(255,255,255,0.7);
+    border: 1px solid rgba(0,0,0,0);
+    cursor: pointer;
+    transition: transform 0.5s;
+    width: 150px;
+    margin: 0 auto;
+}
+  
+.btn:hover {
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+            inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+            -0.5px -0.5px 0px rgba(255,255,255,1),
+            0.5px 0.5px 0px rgba(0,0,0,0.15),
+            0px 12px 10px -10px rgba(0,0,0,0.05);
+    border: 1px solid rgba(0,0,0,0.1);
+    transform: translateY(0.5em);
+}
+  
+.btn svg {
+    transition: transform 0.5s;
+}
+  
+.btn:hover svg {
+    transform: scale(0.9) rotate(360deg);
+    fill: #333333;
+}
+  
+.h1-support {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
